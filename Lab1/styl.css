@@ -27,7 +27,7 @@ article > b {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: max-content max-content max-content;
   gap: 10px;
   margin: 10px;
 }
@@ -35,6 +35,13 @@ article > b {
 img {
   text-align: center;
   font-size: 30px;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
+}
+.grid-container > div:hover,
+img:hover {
+  text-align: center;
+  font-size: 30px;
+  height: 190px;
+  width: 190px;
 }
