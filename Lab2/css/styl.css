@@ -1,0 +1,22 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: 5px;
+}
+
+table,
+td,
+th,
+tr {
+  border: 1px solid;
+}
+
+table {
+  background-color: bisque;
+  border-collapse: collapse;
+}
+img {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,19 @@
+/*canvas {
+  background: #eee;
+  background-image: url("/images/board-bg.jpg");
+  display: block;
+  margin: 0 auto;
+  border: 5px solid blueviolet;
+}*/
+
+canvas {
+  background-image: url("/images/board-bg.jpg");
+  background-size: cover;
+}
+
+#replacePointer {
+  position: absolute;
+  cursor: none;
+  width: 200px;
+  height: 200px;
+}

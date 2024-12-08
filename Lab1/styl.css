@@ -41,7 +41,6 @@ img {
 .grid-container > div:hover,
 img:hover {
   text-align: center;
-  font-size: 30px;
-  height: 190px;
-  width: 190px;
+  font-size: 40px;
+  color: rgba(120, 27, 27, 0.5);
 }

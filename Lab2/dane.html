@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dane</title>
+    <script src="javascript/dane.js" defer></script>
+    <link rel="stylesheet" href="css/styl.css" />
+  </head>
+  <body>
+    <h1>Labolatorium 3 - Pobieranie danych</h1>
+    <hr />
+    <input type="search" id="search" data-search, placeholder="Szukaj" />
+    <select id="order">
+      <option value="original">oryginalna kolejność</option>
+      <option value="increase">rosnąco</option>
+      <option value="decrease">malejąco</option>
+    </select>
+    <hr />
+    <button onclick="generuj()">Szukaj</button>
+    <hr />
+    <table id="container">
+      <tr>
+        <th>Zdjęcie</th>
+        <th>Tytuł</th>
+        <th>opis</th>
+      </tr>
+    </table>
+    <hr />
+  </body>
+</html>

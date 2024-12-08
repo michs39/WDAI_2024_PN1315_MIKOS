@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.upper-container {
+  background-color: white;
+  border: 1px black solid;
+}
+nav > a > .this-site,
+.this-site:hover {
+  background-color: greenyellow;
+}
+nav > a > div {
+  background-color: white;
+  border: 1px rgb(250, 235, 215) solid;
+}
+
+nav > a > div:hover {
+  background-color: rgb(260, 245, 225);
+  border: 1px black solid;
+}
+nav > a {
+  color: black;
+}
+#clock {
+  background-color: white;
+}

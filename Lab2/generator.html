@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Generator</title>
+    <script src="javascript/generator.js" defer></script>
+  </head>
+  <body>
+    <h1>Labolatorium 3 - Generator haseł</h1>
+    <hr />
+    <input
+      type="text"
+      ,
+      placeholder="Minimalna długość hasła"
+      ,
+      id="minNumOfCharacters"
+    />
+    <br />
+    <input
+      type="text"
+      ,
+      placeholder="Maksymalna długość hasła"
+      ,
+      id="maxNumOfCharacters"
+    />
+    <br />
+    <input type="checkbox" , id="capitalCharacters" /><label
+      >Wielkie litery</label
+    >
+    <br />
+
+    <input type="checkbox" , id="specialCharacters" /><label
+      >Znaki specjalne</label
+    >
+    <br />
+    <button onclick="generate()">Generuj</button>
+  </body>
+</html>

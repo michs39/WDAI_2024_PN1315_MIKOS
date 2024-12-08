@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projekt - Kontakt</title>
+    <link rel="stylesheet" href="css/styl.css" />
+    <link rel="stylesheet" href="css/switch.css" />
+    <link id="lightMode" rel="stylesheet" href="css/day.css" />
+    <script src="javascript/zegar.js" defer></script>
+    <script src="javascript/changeMode.js" defer></script>
+  </head>
+  <body onload="init()">
+    <div class="upper-container">
+      <header>
+        <a href="index.html"><img src="images/title.png" /></a>
+      </header>
+      <nav>
+        <a href="index.html"><div>Strona główna</div></a>
+        <a href="galeria.html"><div>Galeria</div></a>
+        <a href="kontakt.html"><div class="this-site">Kontakt</div></a>
+      </nav>
+
+      <div id="clock">00:00:00</div>
+    </div>
+
+    <main>
+      <h1>Kontakt</h1>
+      <hr />
+      <div id="formularz">
+        <form>
+          <input type="email" placeholder="E-mail" />
+          <br />
+          <select name="Temat">
+            <option value="" disabled selected>Wybierz temat</option>
+            <option value="prop">Propozycje</option>
+            <option value="skarg">Skargi</option>
+            <option value="pyt">Pytania</option>
+          </select>
+          <br />
+          <textarea
+            id="tekst"
+            name="tekst"
+            rows="4"
+            cols="50"
+            placeholder="Wpisz treść"
+          ></textarea>
+          <br />
+          <input type="submit" />
+        </form>
+      </div>
+    </main>
+    <hr />
+    <footer>
+      AGH
+      <br />
+      Wstęp do aplikacji internetowych - projekt 1
+      <br />
+      Michał Mikoś 423454
+    </footer>
+  </body>
+</html>
